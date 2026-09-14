@@ -9,4 +9,5 @@
 - Add or update meaningful tests for behavior changes and bug fixes when appropriate. Run relevant tests, formatting checks, type checks, and builds proportionate to the change and any repository requirements.
 - Preserve public interfaces and backward compatibility unless the task calls for a change. Update affected documentation and examples when behavior, configuration, or usage changes.
 - Review the final diff for accidental edits, debug code, unused code, and sensitive data. Keep generated files and lockfiles consistent when applicable.
+- Follow Conventional Commits for commit messages: use `<type>[optional scope][!]: <description>` (for example, `feat(auth): add password reset`). Use `feat` for new features, `fix` for bug fixes, and other appropriate types such as `docs`, `refactor`, `test`, or `chore`. Mark breaking changes with `!` before the colon or a `BREAKING CHANGE:` footer.
 - In the handoff, briefly explain what changed, which checks actually ran and their results, and any remaining limitations or blockers.
